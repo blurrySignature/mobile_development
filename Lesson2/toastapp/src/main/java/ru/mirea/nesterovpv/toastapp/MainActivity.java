@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = findViewById(R.id.editTextText);
         String inputText = editText.getText().toString();
         int charCount = inputText.length();
-        String message = "СТУДЕНТ № 20 ГРУППА БИСО-01-20 Количество символов: " + charCount;
+        String message = "СТУДЕНТ № 22 ГРУППА БИСО-01-20 Количество символов: " + charCount;
 
         Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG);
         toast.show();
