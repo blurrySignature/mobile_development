@@ -62,10 +62,10 @@
       </SelectionState>
       <SelectionState runConfigName="intentfilter">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-05-15T23:38:06.247882Z">
+        <DropdownSelection timestamp="2025-05-16T00:00:00.597429Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/nesterovp/.android/avd/Medium_Phone.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/nesterovp/.android/avd/Pixel_9_API_26.avd" />
             </handle>
           </Target>
         </DropdownSelection>
