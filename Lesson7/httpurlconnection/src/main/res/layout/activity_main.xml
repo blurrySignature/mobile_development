@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/tvIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP:"
+            android:textSize="18sp"
+            android:padding="4dp"/>
+
+        <TextView android:id="@+id/tvCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Город:"
+            android:padding="4dp"/>
+
+        <TextView android:id="@+id/tvRegion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Регион:"
+            android:padding="4dp"/>
+
+        <TextView android:id="@+id/tvLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Широта:"
+            android:padding="4dp"/>
+
+        <TextView android:id="@+id/tvLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Долгота:"
+            android:padding="4dp"/>
+
+        <TextView android:id="@+id/tvWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Погода:"
+            android:padding="4dp"/>
+        <Button
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Получить данные"/>
+
+
+    </LinearLayout>
+</ScrollView>
