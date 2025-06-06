@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:fitsSystemWindows="true">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Возраст"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editHobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Хобби" />
+
+    <Button
+        android:id="@+id/btnSaveProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

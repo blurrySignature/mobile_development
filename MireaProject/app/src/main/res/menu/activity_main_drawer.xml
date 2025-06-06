@@ -16,7 +16,6 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
-
         <item
             android:id="@+id/nav_data"
             android:icon="@android:drawable/btn_star_big_on"
@@ -25,5 +24,25 @@
             android:id="@+id/nav_web"
             android:icon="?android:attr/actionModeWebSearchDrawable"
             android:title="WebViewFragment" />
+        <item
+            android:id="@+id/nav_worker"
+            android:icon="@android:drawable/ic_media_ff"
+            android:title="Background task" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_microphone"
+            android:title="Измерение громкости" />
+        <item
+            android:id="@+id/nav_altitude"
+            android:title="Высота" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/nav_file"
+            android:title="Работа с файлами" />
     </group>
 </menu>

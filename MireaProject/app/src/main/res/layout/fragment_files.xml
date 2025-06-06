@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textFileInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обработка файлов. Нажмите на кнопку для запуска диалога."
+        android:layout_gravity="center" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_file_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:contentDescription="Добавить"
+        android:src="@android:drawable/ic_input_add" />
+</FrameLayout>
